@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run nfl-data.py
+web: sh setup.sh && streamlit run --server.port $PORT nfl-data.py
